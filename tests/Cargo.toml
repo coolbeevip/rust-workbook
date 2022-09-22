@@ -1,0 +1,8 @@
+[package]
+name = "tests"
+version = { workspace = true }
+authors = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+http-warp = { path = "../http-warp"}

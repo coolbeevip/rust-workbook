@@ -1,0 +1,11 @@
+[package]
+name = "http-warp"
+version = { workspace = true }
+authors = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+warp = { workspace = true }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_derive = { workspace = true }
