@@ -9,3 +9,7 @@ warp = { workspace = true }
 tokio = { workspace = true }
 serde = { workspace = true }
 serde_derive = { workspace = true }
+futures = { workspace = true }
+awaitility = { workspace = true }
+log = { workspace = true }
+env_logger = { workspace = true }

@@ -26,7 +26,7 @@ clean: ## Delete the entire target directory.
 
 ##@ Building
 .PHONY: build
-build: clean check  ## Build the project in development mode
+build: clean fmt  ## Build the project in development mode
 	cargo build
 
 ##@ Check Style
